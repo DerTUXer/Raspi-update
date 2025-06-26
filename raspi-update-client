@@ -1,0 +1,10 @@
+#!/bin/sh
+clear
+echo "Update Raspberry PI 5 Client!"
+sudo apt-get update 
+echo "-------Pakete-Liste wurde aktualisiert" 
+sudo apt-get upgrade -y 
+echo "-------Pakete sind jetzt aktuell" 
+touch up.txt 
+echo "-------Starte einen Neustart" 
+sudo reboot
