@@ -5,11 +5,13 @@ raspi-update-client wird auf den Raspberry Pi installiert
 
 Beide Dateien ausfühbar machen
 
-Die host-Datei wird im Terminal mit folfgendem Befehl gestartet:
+Die host-Datei wird im Terminal mit folgendem Befehl gestartet:
 
 sh raspi-update-host
 
-Hinweis: IP-Adreese am eigenen Raspberry-PI ermitteln.
+Hinweis: IP-Adreese im Skript anpassen 
+
+Am eigenen Raspberry-PI ermitteln.
 
 Über den Router (z.B. Fritz-Box) oder mit folgendem Befehl:
 
