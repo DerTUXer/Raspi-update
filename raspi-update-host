@@ -1,0 +1,7 @@
+#!/bin/sh
+clear
+echo "Update Raspberry PI 5!"
+ssh tuxer-pi@192.168.178.171 sh pi-autoupdate.sh
+
+
+
